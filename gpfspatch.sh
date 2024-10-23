@@ -2,7 +2,7 @@
 echo "unmounting fs1"
 mmumount fs1
 echo "deleting fs1"
-mmdelfs1
+mmdelfs fs1
 echo "creating fs1"
 mmcrfs fs1 -F nsd -A yes -D nfs4 –version “5.2.0.0” -j cluster -Q yes -S relatime -T /scale/fs1
 echo "mounting fs1"
